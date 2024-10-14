@@ -9,8 +9,14 @@
       
       
       
+        <link rel="prev" href="../DisplayPropertiesAPI/">
+      
+      
+        <link rel="next" href="../FirmwareControlAPI/">
+      
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
     
     
       
@@ -18,42 +24,37 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
-        
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-
+    
     
     
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    <body dir="ltr">
   
-    
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -70,18 +71,22 @@
       
     </div>
     
+    
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="R5.1" class="md-header__button md-logo" aria-label="R5.1" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -101,35 +106,41 @@
     </div>
     
     
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
     
       <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -159,12 +170,13 @@
                     
 
 
+
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="R5.1" class="md-nav__button md-logo" aria-label="R5.1" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     R5.1
@@ -174,14 +186,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
       </a>
     </li>
   
@@ -189,416 +206,604 @@
     
       
       
-      
-
+  
   
   
   
     
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          Thunder
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Thunder" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          Thunder
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
           
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Thunder
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Thunder
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../thunder/ControllerPlugin/" class="md-nav__link">
-        Controller Plugin
+        
+  
+  <span class="md-ellipsis">
+    Controller Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
     
   
   
+  
+    
+    
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          Interfaces
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Interfaces" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Interfaces
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
           
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Interfaces
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Interfaces
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../AmazonPrimeAPI/" class="md-nav__link">
-        AmazonPrime API
+        
+  
+  <span class="md-ellipsis">
+    AmazonPrime API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ApplicationAPI/" class="md-nav__link">
-        Application API
+        
+  
+  <span class="md-ellipsis">
+    Application API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../AVSControllerAPI/" class="md-nav__link">
-        AVSController API
+        
+  
+  <span class="md-ellipsis">
+    AVSController API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BluetoothControlAPI/" class="md-nav__link">
-        Bluetooth Control API
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BluetoothRemoteControlAPI/" class="md-nav__link">
-        Bluetooth Remote Control API
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth Remote Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BrowserAPI/" class="md-nav__link">
-        Browser API
+        
+  
+  <span class="md-ellipsis">
+    Browser API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BrowserCookieJarAPI/" class="md-nav__link">
-        BrowserCookieJar API
+        
+  
+  <span class="md-ellipsis">
+    BrowserCookieJar API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BrowserResourcesAPI/" class="md-nav__link">
-        BrowserResources API
+        
+  
+  <span class="md-ellipsis">
+    BrowserResources API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BrowserScriptingAPI/" class="md-nav__link">
-        BrowserScripting API
+        
+  
+  <span class="md-ellipsis">
+    BrowserScripting API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../BrowserSecurityAPI/" class="md-nav__link">
-        BrowserSecurity API
+        
+  
+  <span class="md-ellipsis">
+    BrowserSecurity API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ButlerAPI/" class="md-nav__link">
-        Butler API
+        
+  
+  <span class="md-ellipsis">
+    Butler API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../CobaltAPI/" class="md-nav__link">
-        Cobalt API
+        
+  
+  <span class="md-ellipsis">
+    Cobalt API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../CompositorAPI/" class="md-nav__link">
-        Compositor API
+        
+  
+  <span class="md-ellipsis">
+    Compositor API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ConnectionPropertiesAPI/" class="md-nav__link">
-        ConnectionProperties API
+        
+  
+  <span class="md-ellipsis">
+    ConnectionProperties API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../CustomerCareOperationsAPI/" class="md-nav__link">
-        CustomerCareOperations API
+        
+  
+  <span class="md-ellipsis">
+    CustomerCareOperations API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DeviceIdentificationAPI/" class="md-nav__link">
-        Device Identification API
+        
+  
+  <span class="md-ellipsis">
+    Device Identification API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DeviceInfoAPI/" class="md-nav__link">
-        Device Info API
+        
+  
+  <span class="md-ellipsis">
+    Device Info API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DHCPServerAPI/" class="md-nav__link">
-        DHCP Server API
+        
+  
+  <span class="md-ellipsis">
+    DHCP Server API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DIALServerAPI/" class="md-nav__link">
-        DIAL Server API
+        
+  
+  <span class="md-ellipsis">
+    DIAL Server API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DictionaryAPI/" class="md-nav__link">
-        Dictionary API
+        
+  
+  <span class="md-ellipsis">
+    Dictionary API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DisplayInfoAPI/" class="md-nav__link">
-        Display Info API
+        
+  
+  <span class="md-ellipsis">
+    Display Info API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../DisplayPropertiesAPI/" class="md-nav__link">
-        DisplayProperties API
+        
+  
+  <span class="md-ellipsis">
+    DisplayProperties API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          DTV API
+          
+  
+  <span class="md-ellipsis">
+    DTV API
+  </span>
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        DTV API
+        
+  
+  <span class="md-ellipsis">
+    DTV API
+  </span>
+  
+
       </a>
       
         
-
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
@@ -615,7 +820,9 @@
       
         <li class="md-nav__item">
   <a href="#table-of-contents" class="md-nav__link">
-    Table of Contents
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
   </a>
   
 </li>
@@ -627,1346 +834,2006 @@
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../FirmwareControlAPI/" class="md-nav__link">
-        Firmware Control API
+        
+  
+  <span class="md-ellipsis">
+    Firmware Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../GraphicsPropertiesAPI/" class="md-nav__link">
-        GraphicsProperties API
+        
+  
+  <span class="md-ellipsis">
+    GraphicsProperties API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../HDRPropertiesAPI/" class="md-nav__link">
-        HDRProperties API
+        
+  
+  <span class="md-ellipsis">
+    HDRProperties API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../InputSwitchAPI/" class="md-nav__link">
-        Input Switch API
+        
+  
+  <span class="md-ellipsis">
+    Input Switch API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../IOConnectorAPI/" class="md-nav__link">
-        IO Connector API
+        
+  
+  <span class="md-ellipsis">
+    IO Connector API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../IOControlAPI/" class="md-nav__link">
-        IO Control API
+        
+  
+  <span class="md-ellipsis">
+    IO Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../LanguageTagAPI/" class="md-nav__link">
-        LanguageTag API
+        
+  
+  <span class="md-ellipsis">
+    LanguageTag API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../LISAAPI/" class="md-nav__link">
-        LISA API
+        
+  
+  <span class="md-ellipsis">
+    LISA API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../LocationSyncAPI/" class="md-nav__link">
-        Location Sync API
+        
+  
+  <span class="md-ellipsis">
+    Location Sync API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../MathAPI/" class="md-nav__link">
-        Math API
+        
+  
+  <span class="md-ellipsis">
+    Math API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../MessageControlAPI/" class="md-nav__link">
-        MessageControl API
+        
+  
+  <span class="md-ellipsis">
+    MessageControl API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../MessengerAPI/" class="md-nav__link">
-        Messenger API
+        
+  
+  <span class="md-ellipsis">
+    Messenger API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../MonitorAPI/" class="md-nav__link">
-        Monitor API
+        
+  
+  <span class="md-ellipsis">
+    Monitor API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../NetflixAPI/" class="md-nav__link">
-        Netflix API
+        
+  
+  <span class="md-ellipsis">
+    Netflix API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../NetworkControlAPI/" class="md-nav__link">
-        NetworkControl API
+        
+  
+  <span class="md-ellipsis">
+    NetworkControl API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../NetworkToolsAPI/" class="md-nav__link">
-        NetworkTools API
+        
+  
+  <span class="md-ellipsis">
+    NetworkTools API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../OpenCDMiAPI/" class="md-nav__link">
-        OpenCDMi API
+        
+  
+  <span class="md-ellipsis">
+    OpenCDMi API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../OutputAPI/" class="md-nav__link">
-        Output API
+        
+  
+  <span class="md-ellipsis">
+    Output API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PackageManagerAPI/" class="md-nav__link">
-        PackageManager API
+        
+  
+  <span class="md-ellipsis">
+    PackageManager API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PackagerAPI/" class="md-nav__link">
-        Packager API
+        
+  
+  <span class="md-ellipsis">
+    Packager API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PerformanceMonitorAPI/" class="md-nav__link">
-        Performance Monitor API
+        
+  
+  <span class="md-ellipsis">
+    Performance Monitor API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PertsistentStoreAPI/" class="md-nav__link">
-        PertsistentStore API
+        
+  
+  <span class="md-ellipsis">
+    PertsistentStore API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PlayerInfoAPI/" class="md-nav__link">
-        Player Info API
+        
+  
+  <span class="md-ellipsis">
+    Player Info API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PlayerPropertiesAPI/" class="md-nav__link">
-        PlayerProperties API
+        
+  
+  <span class="md-ellipsis">
+    PlayerProperties API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../PowerAPI/" class="md-nav__link">
-        Power API
+        
+  
+  <span class="md-ellipsis">
+    Power API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ProcessContainers/" class="md-nav__link">
-        Process Containers
+        
+  
+  <span class="md-ellipsis">
+    Process Containers
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ProvisioningAPI/" class="md-nav__link">
-        Provisioning API
+        
+  
+  <span class="md-ellipsis">
+    Provisioning API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../RemoteControlAPI/" class="md-nav__link">
-        Remote Control API
+        
+  
+  <span class="md-ellipsis">
+    Remote Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ScriptEngineAPI/" class="md-nav__link">
-        ScriptEngine API
+        
+  
+  <span class="md-ellipsis">
+    ScriptEngine API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SecureShellServerAPI/" class="md-nav__link">
-        SecureShell Server API
+        
+  
+  <span class="md-ellipsis">
+    SecureShell Server API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SecurityAgentAPI/" class="md-nav__link">
-        Security Agent API
+        
+  
+  <span class="md-ellipsis">
+    Security Agent API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SinkAPI/" class="md-nav__link">
-        Sink API
+        
+  
+  <span class="md-ellipsis">
+    Sink API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SourceAPI/" class="md-nav__link">
-        Source API
+        
+  
+  <span class="md-ellipsis">
+    Source API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SparkAPI/" class="md-nav__link">
-        Spark API
+        
+  
+  <span class="md-ellipsis">
+    Spark API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../StateControlAPI/" class="md-nav__link">
-        StateControl API
+        
+  
+  <span class="md-ellipsis">
+    StateControl API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../Store2API/" class="md-nav__link">
-        Store2 API
+        
+  
+  <span class="md-ellipsis">
+    Store2 API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../StreamerAPI/" class="md-nav__link">
-        Streamer API
+        
+  
+  <span class="md-ellipsis">
+    Streamer API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SubsystemControlAPI/" class="md-nav__link">
-        Subsystem Control API
+        
+  
+  <span class="md-ellipsis">
+    Subsystem Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../SystemCommandsAPI/" class="md-nav__link">
-        System Commands API
+        
+  
+  <span class="md-ellipsis">
+    System Commands API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../TimeSyncAPI/" class="md-nav__link">
-        Time Sync API
+        
+  
+  <span class="md-ellipsis">
+    Time Sync API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../TimeZoneAPI/" class="md-nav__link">
-        TimeZone API
+        
+  
+  <span class="md-ellipsis">
+    TimeZone API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../TraceControlAPI/" class="md-nav__link">
-        Trace Control API
+        
+  
+  <span class="md-ellipsis">
+    Trace Control API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ValuePointAPI/" class="md-nav__link">
-        ValuePoint API
+        
+  
+  <span class="md-ellipsis">
+    ValuePoint API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../VolumeControlAPI/" class="md-nav__link">
-        VolumeControl API
+        
+  
+  <span class="md-ellipsis">
+    VolumeControl API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../WatchDogAPI/" class="md-nav__link">
-        WatchDog API
+        
+  
+  <span class="md-ellipsis">
+    WatchDog API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../WebBrowserAPI/" class="md-nav__link">
-        WebBrowser API
+        
+  
+  <span class="md-ellipsis">
+    WebBrowser API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../WebKitBrowserAPI/" class="md-nav__link">
-        WebKit Browser API
+        
+  
+  <span class="md-ellipsis">
+    WebKit Browser API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../WifiControlAPI/" class="md-nav__link">
-        WifiControl API
+        
+  
+  <span class="md-ellipsis">
+    WifiControl API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../ZigWaveAPI/" class="md-nav__link">
-        ZigWave API
+        
+  
+  <span class="md-ellipsis">
+    ZigWave API
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          Plugins
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Plugins" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Plugins
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
           
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Plugins
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/AVSPlugin/" class="md-nav__link">
-        AVS Plugin
+        
+  
+  <span class="md-ellipsis">
+    AVS Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/BackOfficePlugin/" class="md-nav__link">
-        BackOffice Plugin
+        
+  
+  <span class="md-ellipsis">
+    BackOffice Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/BluetoothAudioPlugin/" class="md-nav__link">
-        Bluetooth Audio Plugin
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth Audio Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/BluetoothControlPlugin/" class="md-nav__link">
-        Bluetooth Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/BluetoothRemoteControlPlugin/" class="md-nav__link">
-        Bluetooth Remote Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth Remote Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/BluetoothSDPServerPlugin/" class="md-nav__link">
-        Bluetooth SDP Server Plugin
+        
+  
+  <span class="md-ellipsis">
+    Bluetooth SDP Server Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/CobaltPlugin/" class="md-nav__link">
-        Cobalt Plugin
+        
+  
+  <span class="md-ellipsis">
+    Cobalt Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/CommanderPlugin/" class="md-nav__link">
-        Commander Plugin
+        
+  
+  <span class="md-ellipsis">
+    Commander Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/CompositorPlugin/" class="md-nav__link">
-        Compositor Plugin
+        
+  
+  <span class="md-ellipsis">
+    Compositor Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/ContainersPlugin/" class="md-nav__link">
-        Containers Plugin
+        
+  
+  <span class="md-ellipsis">
+    Containers Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DeviceIdentificationAPI/" class="md-nav__link">
-        Device Identification API
+        
+  
+  <span class="md-ellipsis">
+    Device Identification API
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DeviceInfoPlugin/" class="md-nav__link">
-        Device Info Plugin
+        
+  
+  <span class="md-ellipsis">
+    Device Info Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DHCPServerPlugin/" class="md-nav__link">
-        DHCP Server Plugin
+        
+  
+  <span class="md-ellipsis">
+    DHCP Server Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DIALServerPlugin/" class="md-nav__link">
-        DIAL Server Plugin
+        
+  
+  <span class="md-ellipsis">
+    DIAL Server Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DictionaryPlugin/" class="md-nav__link">
-        Dictionary Plugin
+        
+  
+  <span class="md-ellipsis">
+    Dictionary Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DisplayInfoPlugin/" class="md-nav__link">
-        Display Info Plugin
+        
+  
+  <span class="md-ellipsis">
+    Display Info Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/DoggoPlugin/" class="md-nav__link">
-        Doggo Plugin
+        
+  
+  <span class="md-ellipsis">
+    Doggo Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/FileTransferPlugin/" class="md-nav__link">
-        FileTransfer Plugin
+        
+  
+  <span class="md-ellipsis">
+    FileTransfer Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/FirmwareControlPlugin/" class="md-nav__link">
-        Firmware Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Firmware Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/IOConnectorPlugin/" class="md-nav__link">
-        IO Connector Plugin
+        
+  
+  <span class="md-ellipsis">
+    IO Connector Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/LocationSyncPlugin/" class="md-nav__link">
-        Location Sync Plugin
+        
+  
+  <span class="md-ellipsis">
+    Location Sync Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/MessageControlPlugin/" class="md-nav__link">
-        MessageControl Plugin
+        
+  
+  <span class="md-ellipsis">
+    MessageControl Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/MessengerPlugin/" class="md-nav__link">
-        Messenger Plugin
+        
+  
+  <span class="md-ellipsis">
+    Messenger Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/MonitorPlugin/" class="md-nav__link">
-        Monitor Plugin
+        
+  
+  <span class="md-ellipsis">
+    Monitor Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/NetworkControlPlugin/" class="md-nav__link">
-        Network Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Network Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/OpenCDMiPlugin/" class="md-nav__link">
-        OpenCDMi Plugin
+        
+  
+  <span class="md-ellipsis">
+    OpenCDMi Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/PackagerPlugin/" class="md-nav__link">
-        Packager Plugin
+        
+  
+  <span class="md-ellipsis">
+    Packager Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/PerformanceMetricsPlugin/" class="md-nav__link">
-        PerformanceMetrics Plugin
+        
+  
+  <span class="md-ellipsis">
+    PerformanceMetrics Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/PerformanceMonitorPlugin/" class="md-nav__link">
-        Performance Monitor Plugin
+        
+  
+  <span class="md-ellipsis">
+    Performance Monitor Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/PlayerInfoPlugin/" class="md-nav__link">
-        Player Info Plugin
+        
+  
+  <span class="md-ellipsis">
+    Player Info Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/PowerPlugin/" class="md-nav__link">
-        Power Plugin
+        
+  
+  <span class="md-ellipsis">
+    Power Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/ProcessMonitorPlugin/" class="md-nav__link">
-        ProcessMonitor Plugin
+        
+  
+  <span class="md-ellipsis">
+    ProcessMonitor Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/RemoteControlPlugin/" class="md-nav__link">
-        Remote Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Remote Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/ResourceMonitorPlugin/" class="md-nav__link">
-        ResourceMonitor Plugin
+        
+  
+  <span class="md-ellipsis">
+    ResourceMonitor Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/SecurityAgentPlugin/" class="md-nav__link">
-        Security Agent Plugin
+        
+  
+  <span class="md-ellipsis">
+    Security Agent Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/SparkPlugin/" class="md-nav__link">
-        Spark Plugin
+        
+  
+  <span class="md-ellipsis">
+    Spark Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/StreamerPlugin/" class="md-nav__link">
-        Streamer Plugin
+        
+  
+  <span class="md-ellipsis">
+    Streamer Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/SubsystemControlPlugin/" class="md-nav__link">
-        Subsystem Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Subsystem Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/SystemCommandsPlugin/" class="md-nav__link">
-        System Commands Plugin
+        
+  
+  <span class="md-ellipsis">
+    System Commands Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/TimeSyncPlugin/" class="md-nav__link">
-        Time Sync Plugin
+        
+  
+  <span class="md-ellipsis">
+    Time Sync Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/VolumeControlPlugin/" class="md-nav__link">
-        Volume Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Volume Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/WebKitBrowserPlugin/" class="md-nav__link">
-        WebKit Browser Plugin
+        
+  
+  <span class="md-ellipsis">
+    WebKit Browser Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/WebPAPlugin/" class="md-nav__link">
-        WebPA Plugin
+        
+  
+  <span class="md-ellipsis">
+    WebPA Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../plugins/WifiControlPlugin/" class="md-nav__link">
-        Wifi Control Plugin
+        
+  
+  <span class="md-ellipsis">
+    Wifi Control Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1984,7 +2851,6 @@
                   <div class="md-sidebar__inner">
                     
 
-
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -2000,7 +2866,9 @@
       
         <li class="md-nav__item">
   <a href="#table-of-contents" class="md-nav__link">
-    Table of Contents
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
   </a>
   
 </li>
@@ -2013,16 +2881,18 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                
-                <!-- Generated automatically, DO NOT EDIT! -->
+                  
+
+
+<!-- Generated automatically, DO NOT EDIT! -->
 <p><a name="head.DTV_API"></a></p>
 <h1 id="dtv-api">DTV API</h1>
 <p><strong>Version: 1.0</strong></p>
-<p><strong>Status: <img alt="⚫" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26ab.svg" title=":black_circle:" /><img alt="⚪" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26aa.svg" title=":white_circle:" /><img alt="⚪" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26aa.svg" title=":white_circle:" /></strong></p>
+<p><strong>Status: <img alt="⚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/26ab.svg" title=":black_circle:" /><img alt="⚪" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/26aa.svg" title=":white_circle:" /><img alt="⚪" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/26aa.svg" title=":white_circle:" /></strong></p>
 <p>DTV plugin for Thunder framework.</p>
 <h3 id="table-of-contents">Table of Contents</h3>
 <ul>
@@ -3257,7 +4127,7 @@
 <p>Provides access to the list of services for the given type of tuner, transport (version 2), or all services if neither is given.</p>
 <blockquote>
 <p>This property is <strong>read-only</strong>.</p>
-<p>The <em>optional tuner type, or transport dvb doublet</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.serviceList@&lt;optional tuner type, or transport dvb doublet&gt;</code>.</p>
+<p>The <em>optional tuner type, or transport dvb doublet</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.serviceList@&lt;optional-tuner-type,-or-transport-dvb-doublet&gt;</code>.</p>
 </blockquote>
 <h3 id="index">Index</h3>
 <table>
@@ -3270,75 +4140,2377 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td style="text-align: left;">optional-tuner-type,-or-transport-dvb-doublet</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
 </tr>
 </tbody>
 </table>
-                
-              
-              
-                
+<h3 id="value_6">Value</h3>
+<h3 id="result_12">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">List of services for the given type of tuner, transport (version 2), or all services if neither is given</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_12">Example</h3>
+<h4 id="get-request_6">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.serviceList@dvbs or 9018.4161&quot;
+}
+</code></pre>
+<h4 id="get-response_6">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: [
+    {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  ]
+}
+</code></pre>
+<p><a name="property.serviceInfo"></a></p>
+<h2 id="serviceinfo-property"><em>serviceInfo <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the information for the given service as defined by its DVB triplet URI.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>service uri string</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.serviceInfo@&lt;service-uri-string&gt;</code>.</p>
+</blockquote>
+<h3 id="index_1">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">service-uri-string</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_7">Value</h3>
+<h3 id="result_13">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_13">Example</h3>
+<h4 id="get-request_7">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.serviceInfo@9018.4161.1001&quot;
+}
+</code></pre>
+<h4 id="get-response_7">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;fullname&quot;: &quot;Channel 4&quot;,
+    &quot;shortname&quot;: &quot;C4&quot;,
+    &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+    &quot;servicetype&quot;: &quot;tv&quot;,
+    &quot;lcn&quot;: 1001,
+    &quot;scrambled&quot;: false,
+    &quot;hascadescriptor&quot;: false,
+    &quot;hidden&quot;: false,
+    &quot;selectable&quot;: false,
+    &quot;runningstatus&quot;: &quot;running&quot;
+  }
+}
+</code></pre>
+<p><a name="property.serviceComponents"></a></p>
+<h2 id="servicecomponents-property"><em>serviceComponents <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the (Version 2) array of components for the given service defined by its URI.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>service uri string</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.serviceComponents@&lt;service-uri-string&gt;</code>.</p>
+</blockquote>
+<h3 id="index_2">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">service-uri-string</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_8">Value</h3>
+<h3 id="result_14">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">(Version 2) array of components for the given service defined by its URI</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Video, audio, subtitle, teletext or data component info</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].type</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Type of data contained in this component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.tags</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Array of component tags</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.tags[#]</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> <em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].pid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">PID of the component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.video</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Video related information for a video component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.video.codec</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Video or audio codec type</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.audio</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Audio related information for an audio component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.audio?.codec</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Video or audio codec type</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.audio.language</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">ISO 3-char language code</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.audio.type</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Type of the audio contained in the component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.audio.mode</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Audio mode</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.subtitles</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> DVB subtitle related information for a subtitle component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.subtitles.language</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">ISO 3-char language code</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.subtitles.format</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Intended TV format for the subtitles</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.subtitles.compositionpage</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Composition page to be used for subtitles in this component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.subtitles.ancillarypage</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Ancillary page to be used for subtitles in this component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.teletext</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Teletext related information for a teletext component</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.teletext.language</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">ISO 3-char language code</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.teletext.type</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Type of teletext data</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.teletext.magazine</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Magazine number for this type and language</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]?.teletext.page</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Page number for this type and language</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_14">Example</h3>
+<h4 id="get-request_8">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.serviceComponents@9018.4161.1001&quot;
+}
+</code></pre>
+<h4 id="get-response_8">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: [
+    {
+      &quot;type&quot;: &quot;video&quot;,
+      &quot;tags&quot;: [
+        0
+      ],
+      &quot;pid&quot;: 1100,
+      &quot;video&quot;: {
+        &quot;codec&quot;: &quot;mpeg2&quot;
+      },
+      &quot;audio&quot;: {
+        &quot;codec&quot;: &quot;mpeg2&quot;,
+        &quot;language&quot;: &quot;eng&quot;,
+        &quot;type&quot;: &quot;normal&quot;,
+        &quot;mode&quot;: &quot;mono&quot;
+      },
+      &quot;subtitles&quot;: {
+        &quot;language&quot;: &quot;eng&quot;,
+        &quot;format&quot;: &quot;default&quot;,
+        &quot;compositionpage&quot;: 0,
+        &quot;ancillarypage&quot;: 0
+      },
+      &quot;teletext&quot;: {
+        &quot;language&quot;: &quot;eng&quot;,
+        &quot;type&quot;: 0,
+        &quot;magazine&quot;: 0,
+        &quot;page&quot;: 0
+      }
+    }
+  ]
+}
+</code></pre>
+<p><a name="property.transportInfo"></a></p>
+<h2 id="transportinfo-property"><em>transportInfo <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the information for the given transport as defined by its DVB doublet URI.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>transport uri string</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.transportInfo@&lt;transport-uri-string&gt;</code>.</p>
+</blockquote>
+<h3 id="index_3">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">transport-uri-string</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_9">Value</h3>
+<h3 id="result_15">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">(Version 2) Details for a transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.tunertype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Tuner type</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.originalnetworkid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Original network ID of the transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.transportid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Transport ID of the transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.strength</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Signal strength as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.quality</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Signal quality as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbctuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-C signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbctuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transport, in Hz</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbctuningparams.symbolrate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Symbol rate in Ksymb/sec</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbctuningparams.modulation</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB C Modulation supported by the platform</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-S/S2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.satellite</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the satellite settings to be used</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transponder, in kHz</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.polarity</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Polarity setting</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.symbolrate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Symbol rate in Ksymb/sec</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.fec</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Forward error correction setting</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.modulation</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB S Modulation supported by the platform</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbstuningparams.dvbs2</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">True when tuning to a DVB-S2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-T/T2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transport, in Hz</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams.bandwidth</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Channel bandwidth</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams.mode</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">OFDM mode</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams.dvbt2</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">True when tuning to a DVB-T2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.dvbttuningparams?.plpid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> PLP ID for tuning to a DVB-T2 signal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_15">Example</h3>
+<h4 id="get-request_9">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.transportInfo@9018.4161&quot;
+}
+</code></pre>
+<h4 id="get-response_9">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;tunertype&quot;: &quot;dvbt&quot;,
+    &quot;originalnetworkid&quot;: 8204,
+    &quot;transportid&quot;: 8204,
+    &quot;strength&quot;: 76,
+    &quot;quality&quot;: 95,
+    &quot;dvbctuningparams&quot;: {
+      &quot;frequency&quot;: 474000000,
+      &quot;symbolrate&quot;: 6900,
+      &quot;modulation&quot;: &quot;128qam&quot;
+    },
+    &quot;dvbstuningparams&quot;: {
+      &quot;satellite&quot;: &quot;Astra 28.2&quot;,
+      &quot;frequency&quot;: 10714000,
+      &quot;polarity&quot;: &quot;horizontal&quot;,
+      &quot;symbolrate&quot;: 22000,
+      &quot;fec&quot;: &quot;fec5_6&quot;,
+      &quot;modulation&quot;: &quot;qpsk&quot;,
+      &quot;dvbs2&quot;: false
+    },
+    &quot;dvbttuningparams&quot;: {
+      &quot;frequency&quot;: 474000000,
+      &quot;bandwidth&quot;: &quot;8MHz&quot;,
+      &quot;mode&quot;: &quot;ofdm_32K&quot;,
+      &quot;dvbt2&quot;: false,
+      &quot;plpid&quot;: 0
+    }
+  }
+}
+</code></pre>
+<p><a name="property.nowNextEvents"></a></p>
+<h2 id="nownextevents-property"><em>nowNextEvents <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the now and next events (EITp/f) for the given service.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>service uri string</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.nowNextEvents@&lt;service-uri-string&gt;</code>.</p>
+</blockquote>
+<h3 id="index_4">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">service-uri-string</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_10">Value</h3>
+<h3 id="result_16">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Now and next events (EITp/f) for the given service</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> EIT event information</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.name</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the DVB event as defined in the short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.starttime</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">UTC start time of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.duration</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Duration of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.eventid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">ID of the event from the event information table</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.shortdescription</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event description from the EIT short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.hassubtitles</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if subtitles are available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.hasaudiodescription</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if audio description is available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.parentalrating</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">(Version 2) Parental rating for the event, will be 0 if undefined</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.contentdata</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">(Version 2) The first 2 4-bit values from the content descriptor as separate bytes</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.contentdata[#]</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.now.hasextendedinfo</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there's extended event information available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> EIT event information</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.name</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the DVB event as defined in the short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.starttime</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">UTC start time of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.duration</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Duration of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.eventid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">ID of the event from the event information table</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.shortdescription</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event description from the EIT short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.hassubtitles</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if subtitles are available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.hasaudiodescription</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if audio description is available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.parentalrating</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">(Version 2) Parental rating for the event, will be 0 if undefined</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.contentdata</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">(Version 2) The first 2 4-bit values from the content descriptor as separate bytes</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.contentdata[#]</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.next.hasextendedinfo</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there's extended event information available</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_16">Example</h3>
+<h4 id="get-request_10">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.nowNextEvents@9018.4161.1001&quot;
+}
+</code></pre>
+<h4 id="get-response_10">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;now&quot;: {
+      &quot;name&quot;: &quot;Channel 4 News&quot;,
+      &quot;starttime&quot;: 1587562065,
+      &quot;duration&quot;: 1800,
+      &quot;eventid&quot;: 3012,
+      &quot;shortdescription&quot;: &quot;The current national and world news&quot;,
+      &quot;hassubtitles&quot;: false,
+      &quot;hasaudiodescription&quot;: false,
+      &quot;parentalrating&quot;: 12,
+      &quot;contentdata&quot;: [
+        0
+      ],
+      &quot;hasextendedinfo&quot;: false
+    },
+    &quot;next&quot;: {
+      &quot;name&quot;: &quot;Channel 4 News&quot;,
+      &quot;starttime&quot;: 1587562065,
+      &quot;duration&quot;: 1800,
+      &quot;eventid&quot;: 3012,
+      &quot;shortdescription&quot;: &quot;The current national and world news&quot;,
+      &quot;hassubtitles&quot;: false,
+      &quot;hasaudiodescription&quot;: false,
+      &quot;parentalrating&quot;: 12,
+      &quot;contentdata&quot;: [
+        0
+      ],
+      &quot;hasextendedinfo&quot;: false
+    }
+  }
+}
+</code></pre>
+<p><a name="property.scheduleEvents"></a></p>
+<h2 id="scheduleevents-property"><em>scheduleEvents <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the events which are scheduled (EITsched) for the given service.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>service uri string, with optional start and end times as number of seconds utc</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.scheduleEvents@&lt;service-uri-string,-with-optional-start-and-end-times-as-number-of-seconds-utc&gt;</code>.</p>
+</blockquote>
+<h3 id="index_5">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">service-uri-string,-with-optional-start-and-end-times-as-number-of-seconds-utc</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_11">Value</h3>
+<h3 id="result_17">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">Events which are scheduled (EITsched) for the given service</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#]</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">EIT event information</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].name</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the DVB event as defined in the short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].starttime</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">UTC start time of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].duration</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Duration of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].eventid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">ID of the event from the event information table</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].shortdescription</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event description from the EIT short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].hassubtitles</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if subtitles are available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].hasaudiodescription</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if audio description is available</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].parentalrating</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">(Version 2) Parental rating for the event, will be 0 if undefined</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].contentdata</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">(Version 2) The first 2 4-bit values from the content descriptor as separate bytes</td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].contentdata[#]</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">result[#].hasextendedinfo</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there's extended event information available</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_17">Example</h3>
+<h4 id="get-request_11">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.scheduleEvents@9018.4161.1001:12345000,12346000&quot;
+}
+</code></pre>
+<h4 id="get-response_11">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: [
+    {
+      &quot;name&quot;: &quot;Channel 4 News&quot;,
+      &quot;starttime&quot;: 1587562065,
+      &quot;duration&quot;: 1800,
+      &quot;eventid&quot;: 3012,
+      &quot;shortdescription&quot;: &quot;The current national and world news&quot;,
+      &quot;hassubtitles&quot;: false,
+      &quot;hasaudiodescription&quot;: false,
+      &quot;parentalrating&quot;: 12,
+      &quot;contentdata&quot;: [
+        0
+      ],
+      &quot;hasextendedinfo&quot;: false
+    }
+  ]
+}
+</code></pre>
+<p><a name="property.extendedEventInfo"></a></p>
+<h2 id="extendedeventinfo-property"><em>extendedEventInfo <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the extended event info for the given service and event ID (version 2).</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>service uri string and event id</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.extendedEventInfo@&lt;service-uri-string-and-event-id&gt;</code>.</p>
+</blockquote>
+<h3 id="index_6">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">service-uri-string-and-event-id</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_12">Value</h3>
+<h3 id="result_18">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">(Version 2) Event information from the EIT extended event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.description</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Extended event description text</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.items</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> An array of extended event item</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.items[#]</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> <em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.items[#]?.description</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Description of the item</td>
+</tr>
+<tr>
+<td style="text-align: left;">result?.items[#]?.item</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Item text</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_18">Example</h3>
+<h4 id="get-request_12">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.extendedEventInfo@9018.4161.1001:3012&quot;
+}
+</code></pre>
+<h4 id="get-response_12">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;description&quot;: &quot;A long event description&quot;,
+    &quot;items&quot;: [
+      {
+        &quot;description&quot;: &quot;Actor 1&quot;,
+        &quot;item&quot;: &quot;Kermit The Frog&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<p><a name="property.status"></a></p>
+<h2 id="status-property"><em>status <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the information related to the play handle defined by the index.</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>play handle</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.status@&lt;play-handle&gt;</code>.</p>
+</blockquote>
+<h3 id="index_7">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">play-handle</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_13">Value</h3>
+<h3 id="result_19">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Information related to the play handle defined by the index</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.tuner</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The tuner id used by the play handle</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.demux</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The demux id used by the play handle</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.pmtpid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The PMT PID of the service being played</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">LCN of the service being played</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_19">Example</h3>
+<h4 id="get-request_13">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.status@0&quot;
+}
+</code></pre>
+<h4 id="get-response_13">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;tuner&quot;: 0,
+    &quot;demux&quot;: 0,
+    &quot;pmtpid&quot;: 1100,
+    &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+    &quot;lcn&quot;: 1001
+  }
+}
+</code></pre>
+<p><a name="property.signalInfo"></a></p>
+<h2 id="signalinfo-property"><em>signalInfo <a href="#head.Properties"><sup>property</sup></a></em></h2>
+<p>Provides access to the strength and quality of the currently tuned signal for the given play handle (version 2).</p>
+<blockquote>
+<p>This property is <strong>read-only</strong>.</p>
+<p>The <em>play handle</em> argument shall be passed as the index to the property, e.g. <code>DTV.1.signalInfo@&lt;play-handle&gt;</code>.</p>
+</blockquote>
+<h3 id="index_8">Index</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">play-handle</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="value_14">Value</h3>
+<h3 id="result_20">Result</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">result</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Strength and quality of the currently tuned signal for the given play handle (version 2)</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.locked</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">Tuned locked status</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.strength</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The signal strength as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">result.quality</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The signal quality as a percentage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_20">Example</h3>
+<h4 id="get-request_14">Get Request</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.signalInfo@0&quot;
+}
+</code></pre>
+<h4 id="get-response_14">Get Response</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;result&quot;: {
+    &quot;locked&quot;: false,
+    &quot;strength&quot;: 76,
+    &quot;quality&quot;: 95
+  }
+}
+</code></pre>
+<p><a name="head.Notifications"></a></p>
+<h1 id="notifications">Notifications</h1>
+<p>Notifications are autonomous events triggered by the internals of the implementation and broadcasted via JSON-RPC to all registered observers. Refer to [<a href="#ref.Thunder">Thunder</a>] for information on how to register for a notification.</p>
+<p>The following events are provided by the DTV plugin:</p>
+<p>DTV interface events:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Notification</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#notification.searchstatus">searchstatus</a></td>
+<td style="text-align: left;">Triggered during the course of a service search</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.serviceupdated">serviceupdated</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when details of a service have changed, such as its name, service type, running or scrambled state</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.serviceadded">serviceadded</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when a new service has been dynamically added to the service list</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.servicedeleted">servicedeleted</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when a service has been deleted from the service list</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.videochanged">videochanged</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when the video PID or codec has changed</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.audiochanged">audiochanged</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when the audio PID or codec has changed</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.subtitleschanged">subtitleschanged</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when the subtitles have changed</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#notification.eventchanged">eventchanged</a></td>
+<td style="text-align: left;">(Version 2) Notification sent when the EIT 'now' event is received when starting to play a service and when the 'now' event changes</td>
+</tr>
+</tbody>
+</table>
+<p><a name="notification.searchstatus"></a></p>
+<h2 id="searchstatus-notification"><em>searchstatus <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>Triggered during the course of a service search.</p>
+<h3 id="parameters_6">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.handle</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">The handle assigned for the search and to which this information is relevant</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.finished</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">Set to true if the service search has finished, false otherwise</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.progress</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Progress of the search expressed as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> (Version 2) Details for a transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport.tunertype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Tuner type</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport.originalnetworkid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Original network ID of the transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport.transportid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Transport ID of the transport</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport.strength</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Signal strength as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport.quality</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Signal quality as a percentage</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbctuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-C signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbctuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transport, in Hz</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbctuningparams.symbolrate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Symbol rate in Ksymb/sec</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbctuningparams.modulation</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB C Modulation supported by the platform</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-S/S2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.satellite</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the satellite settings to be used</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transponder, in kHz</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.polarity</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Polarity setting</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.symbolrate</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Symbol rate in Ksymb/sec</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.fec</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Forward error correction setting</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.modulation</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB S Modulation supported by the platform</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbstuningparams.dvbs2</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">True when tuning to a DVB-S2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> Parameters required to tune to a DVB-T/T2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams.frequency</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Frequency of the transport, in Hz</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams.bandwidth</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Channel bandwidth</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams.mode</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">OFDM mode</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams.dvbt2</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">True when tuning to a DVB-T2 signal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params?.transport?.dvbttuningparams?.plpid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><sup><em>(optional)</em></sup> PLP ID for tuning to a DVB-T2 signal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_21">Example</h3>
+<h4 id="registration">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;searchstatus&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.searchstatus&quot;,
+  &quot;params&quot;: {
+    &quot;handle&quot;: 0,
+    &quot;eventtype&quot;: &quot;ServiceSearchStatus&quot;,
+    &quot;finished&quot;: false,
+    &quot;progress&quot;: 65,
+    &quot;transport&quot;: {
+      &quot;tunertype&quot;: &quot;dvbt&quot;,
+      &quot;originalnetworkid&quot;: 8204,
+      &quot;transportid&quot;: 8204,
+      &quot;strength&quot;: 76,
+      &quot;quality&quot;: 95,
+      &quot;dvbctuningparams&quot;: {
+        &quot;frequency&quot;: 474000000,
+        &quot;symbolrate&quot;: 6900,
+        &quot;modulation&quot;: &quot;128qam&quot;
+      },
+      &quot;dvbstuningparams&quot;: {
+        &quot;satellite&quot;: &quot;Astra 28.2&quot;,
+        &quot;frequency&quot;: 10714000,
+        &quot;polarity&quot;: &quot;horizontal&quot;,
+        &quot;symbolrate&quot;: 22000,
+        &quot;fec&quot;: &quot;fec5_6&quot;,
+        &quot;modulation&quot;: &quot;qpsk&quot;,
+        &quot;dvbs2&quot;: false
+      },
+      &quot;dvbttuningparams&quot;: {
+        &quot;frequency&quot;: 474000000,
+        &quot;bandwidth&quot;: &quot;8MHz&quot;,
+        &quot;mode&quot;: &quot;ofdm_32K&quot;,
+        &quot;dvbt2&quot;: false,
+        &quot;plpid&quot;: 0
+      }
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.serviceupdated"></a></p>
+<h2 id="serviceupdated-notification"><em>serviceupdated <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when details of a service have changed, such as its name, service type, running or scrambled state.</p>
+<h3 id="parameters_7">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_22">Example</h3>
+<h4 id="registration_1">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;serviceupdated&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_1">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.serviceupdated&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;ServiceUpdated&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.serviceadded"></a></p>
+<h2 id="serviceadded-notification"><em>serviceadded <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when a new service has been dynamically added to the service list.</p>
+<h3 id="parameters_8">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_23">Example</h3>
+<h4 id="registration_2">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;serviceadded&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_2">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.serviceadded&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;ServiceAdded&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.servicedeleted"></a></p>
+<h2 id="servicedeleted-notification"><em>servicedeleted <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when a service has been deleted from the service list.</p>
+<h3 id="parameters_9">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_24">Example</h3>
+<h4 id="registration_3">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;servicedeleted&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_3">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.servicedeleted&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;ServiceDeleted&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.videochanged"></a></p>
+<h2 id="videochanged-notification"><em>videochanged <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when the video PID or codec has changed.</p>
+<h3 id="parameters_10">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_25">Example</h3>
+<h4 id="registration_4">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;videochanged&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_4">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.videochanged&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;VideoChanged&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.audiochanged"></a></p>
+<h2 id="audiochanged-notification"><em>audiochanged <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when the audio PID or codec has changed.</p>
+<h3 id="parameters_11">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_26">Example</h3>
+<h4 id="registration_5">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;audiochanged&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_5">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.audiochanged&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;AudioChanged&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.subtitleschanged"></a></p>
+<h2 id="subtitleschanged-notification"><em>subtitleschanged <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when the subtitles have changed.</p>
+<h3 id="parameters_12">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_27">Example</h3>
+<h4 id="registration_6">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;subtitleschanged&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_6">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.subtitleschanged&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;SubtitlesChanged&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    }
+  }
+}
+</code></pre>
+<p><a name="notification.eventchanged"></a></p>
+<h2 id="eventchanged-notification"><em>eventchanged <a href="#head.Notifications"><sup>notification</sup></a></em></h2>
+<p>(Version 2) Notification sent when the EIT 'now' event is received when starting to play a service and when the 'now' event changes.</p>
+<h3 id="parameters_13">Parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">params</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.eventtype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event type that's sent as an asynchronous notification</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">Service information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.fullname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Full service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.shortname</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Short service name as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.dvburi</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">DVB triplet of the form a.b.c, where 'a' is the original network ID, 'b' is the transport ID and 'c' is the service ID, in decimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.servicetype</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) Service type as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.lcn</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Logical channel number</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.scrambled</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service is marked as scrambled in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hascadescriptor</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there is at least one CA descriptor in the service's PMT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.hidden</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be hidden</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.selectable</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if the service should be user selectable</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.service.runningstatus</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">(Version 2) The running status as given by the service descriptor in the SDT</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event</td>
+<td style="text-align: left;">object</td>
+<td style="text-align: left;">EIT event information</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.name</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Name of the DVB event as defined in the short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.starttime</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">UTC start time of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.duration</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">Duration of the event in seconds</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.eventid</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">ID of the event from the event information table</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.shortdescription</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;">Event description from the EIT short event descriptor</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.hassubtitles</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if subtitles are available</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.hasaudiodescription</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if audio description is available</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.parentalrating</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">(Version 2) Parental rating for the event, will be 0 if undefined</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.contentdata</td>
+<td style="text-align: left;">array</td>
+<td style="text-align: left;">(Version 2) The first 2 4-bit values from the content descriptor as separate bytes</td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.contentdata[#]</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;"><em>...</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">params.event.hasextendedinfo</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">(Version 2) True if there's extended event information available</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example_28">Example</h3>
+<h4 id="registration_7">Registration</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;id&quot;: 42,
+  &quot;method&quot;: &quot;DTV.1.register&quot;,
+  &quot;params&quot;: {
+    &quot;event&quot;: &quot;eventchanged&quot;,
+    &quot;id&quot;: &quot;client&quot;
+  }
+}
+</code></pre>
+<h4 id="message_7">Message</h4>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;client.eventchanged&quot;,
+  &quot;params&quot;: {
+    &quot;eventtype&quot;: &quot;EventChanged&quot;,
+    &quot;service&quot;: {
+      &quot;fullname&quot;: &quot;Channel 4&quot;,
+      &quot;shortname&quot;: &quot;C4&quot;,
+      &quot;dvburi&quot;: &quot;2.2041.9212&quot;,
+      &quot;servicetype&quot;: &quot;tv&quot;,
+      &quot;lcn&quot;: 1001,
+      &quot;scrambled&quot;: false,
+      &quot;hascadescriptor&quot;: false,
+      &quot;hidden&quot;: false,
+      &quot;selectable&quot;: false,
+      &quot;runningstatus&quot;: &quot;running&quot;
+    },
+    &quot;event&quot;: {
+      &quot;name&quot;: &quot;Channel 4 News&quot;,
+      &quot;starttime&quot;: 1587562065,
+      &quot;duration&quot;: 1800,
+      &quot;eventid&quot;: 3012,
+      &quot;shortdescription&quot;: &quot;The current national and world news&quot;,
+      &quot;hassubtitles&quot;: false,
+      &quot;hasaudiodescription&quot;: false,
+      &quot;parentalrating&quot;: 12,
+      &quot;contentdata&quot;: [
+        0
+      ],
+      &quot;hasextendedinfo&quot;: false
+    }
+  }
+}
+</code></pre>
 
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
       
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../DisplayPropertiesAPI/" class="md-footer__link md-footer__link--prev" aria-label="Previous: DisplayProperties API" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              DisplayProperties API
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../FirmwareControlAPI/" class="md-footer__link md-footer__link--next" aria-label="Next: Firmware Control API" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Firmware Control API
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -3348,10 +6520,12 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
       
     
   </body>
